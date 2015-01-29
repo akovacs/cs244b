@@ -3,6 +3,8 @@ CS244b-final-project
 
 Secure, distributed, scalable peer-to-peer file locker for Stanford CS 244B Distributed Systems final project. Users can run a server node (a java jar executable) which mirror files of their choice in a decentralized "cloud" of individually untrusted commodity consumer computers, while still ensuring the integrity of replicated files by utilizing keyed-hash message authentication codes (HMAC_SHA256). Our system is cross-platform (it can be ported to any device which is capable of running the Java virtual machine) and utilizes standard TCP/IP networking to promote adoption and usage across the wider internet. Participants in the system are registered in a distributed hash table backed by the Chord algorithm, therefore saves and lookups in the system scale logarithmically in proportion to the number of participating clients.
 
+A video demonstration of the system is available at [https://www.youtube.com/watch?v=nDcraNzJPyg](https://www.youtube.com/watch?v=nDcraNzJPyg).
+
 ## Eclipse Setup
 
 Menu > Help > Install New Software > Add...
